@@ -1,13 +1,17 @@
-INSTALAR PYTHON ANTES !!!
+# INSTALAR PYTHON ANTES !!!
 
-Para instalar:
+-Para instalar:
 pip install pytest
-
-Para criar um novo ambiente virtual:
+-Para criar um novo ambiente virtual:
 python -m venv nome_do_ambiente
-
-Para ativar:
+-Para ativar:
 .\nomedoambiente\Scripts\activate
-
-Para rodar:
+-Para rodar:
 pytest
+- Para voltar uma pasta: 
+cd ..
+
+Para criar a tabela de rendimento:
+- python -m pip install pytest-cov
+- python -m pytest --cov
+
