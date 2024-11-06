@@ -14,4 +14,10 @@ cd ..
 Para criar a tabela de rendimento:
 - python -m pip install pytest-cov
 - python -m pytest --cov
+- pytest -v para mostrar PASSED
+
+Mock:
+- Simulador de busca para banco de dados ou API
+- pip install requests
+- pip install pytest-mock
 
